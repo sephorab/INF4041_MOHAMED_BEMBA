@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/tv_hello_world"
+        android:gravity="left"
+        android:onClick="onClick"
+        android:textStyle="italic"
+        />
+<!--
+    <Button
+        android:id="@+id/btn_hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text"
+        android:gravity="center"
+        android:onClick="showToast"
+        />
+-->
+    <CheckBox
+        android:id="@+id/starDAO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="50dp"
+        android:height="50dp"
+        android:textSize="20sp"
+        android:text="@string/star_text"
+
+        android:textColor="@color/white"
+        android:button="@drawable/checkbox"
+
+        android:layout_gravity="center_horizontal"
+        android:onClick="showFavorites"
+        android:visibility="visible"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:background="@color/greenDark"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_biere"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

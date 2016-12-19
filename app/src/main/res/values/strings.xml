@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Beer World</string>
+    <string name="button_text">Click</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="msg">Click detected!</string>
+    <string name="choice_french">You chose French. Your preference has been saved.</string>
+    <string name="choice_english">You chose English. Your preference has been saved.</string>
+
+    <string name="see_details">See details (+)</string>
+
+    <string-array name="languages">
+
+        <item>French</item>
+        <item>English</item>
+    </string-array>
+    <string name="note">Mark</string>
+    <string name="choice_language">Choose your language</string>
+    <string name="notif_lang">Default language successfully changed!</string>
+    <string name="notif_lang_msg">Your language preference has been saved.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="category">Category</string>
+    <string name="country">Country</string>
+    <string name="update">Update received.</string>
+    <string name="added_favorite">Added to favorites.</string>
+    <string name="removed_favorite">Removed from favorites</string>
+    <string name="visit_website">Visit our website</string>
+    <string name="info">Browse all the beers of the world and save your favorite drinks!</string>
+    <string name="go">Let\'s go!</string>
+    <string name="star_text">Only show favorite beers</string>
+    <string name="error_network">You need a functional internet connection to proceed</string>
+
+</resources>

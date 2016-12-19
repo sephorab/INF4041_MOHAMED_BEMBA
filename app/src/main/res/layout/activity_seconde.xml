@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+
+    android:background="@color/greenDark"
+
+    >
+    <ProgressBar
+        android:id="@+id/circle"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_weight="100"
+        android:visibility="visible"
+         >
+    </ProgressBar>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:background="@drawable/rect_list2"
+        />
+
+    <TextView
+
+        android:id="@+id/tv_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        />
+
+    <CheckBox
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="20dp"
+        android:height="20dp"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:button="@drawable/checkbox"
+
+        android:layout_gravity="center_horizontal"
+        android:onClick="createFavorite"
+        android:visibility="gone"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        />
+<!--
+    <Button
+
+        android:id="@+id/btn_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="createFavorite"
+        android:layout_marginTop="15dp"
+        android:text="Ajouter aux favoris"
+        android:gravity="center_horizontal"
+
+
+        />
+-->
+
+
+
+</LinearLayout>

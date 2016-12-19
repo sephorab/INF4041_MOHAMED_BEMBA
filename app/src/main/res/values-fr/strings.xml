@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="button_text">Clique</string>
+    <string name="hello_world">Bonjour le monde !</string>
+    <string name="msg">Clic détecté !</string>
+    <string name="choice_french">Vous avez choisi le français. Préférence enregistrée.</string>
+    <string name="choice_english">Vous avez choisi l\'anglais. Préférence enregistrée.</string>
+
+    <string name="see_details">Voir details (+)</string>
+
+    <string-array name="languages">
+
+        <item>Français</item>
+        <item>Anglais</item>
+    </string-array>
+    <string name="app_name">Beer World</string>
+    <string name="note">Note</string>
+    <string name="choice_language">Choisissez votre langue</string>
+    <string name="notif_lang">Language par défaut changé avec succès!</string>
+    <string name="notif_lang_msg">Votre choix de langue par défaut a été sauvegardé.</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="cancel">Annuler</string>
+    <string name="category">Catégorie</string>
+    <string name="country">Pays</string>
+    <string name="update">Mise à jour des données bien reçue.</string>
+    <string name="added_favorite">Ajouté aux favoris</string>
+    <string name="removed_favorite">Supprimé des favoris</string>
+    <string name="visit_website">Visiter notre site</string>
+    <string name="info">Parcourez toutes les bières du monde et sauvegardez vos boissons préférées !</string>
+    <string name="go">C\'est parti !</string>
+    <string name="star_text">Uniquement afficher les favoris</string>
+    <string name="error_network">Vous devez être connecté à internet pour continuer</string>
+
+</resources>
